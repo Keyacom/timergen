@@ -1,0 +1,2 @@
+Pillow~=10.0.0
+# Some earlier version of Pillow could work too, but it's currently only tested on 10.0.0
