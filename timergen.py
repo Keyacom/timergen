@@ -127,6 +127,7 @@ def get_argument_parser() -> ArgumentParser:
         "-S",
         "--font-size",
         help="The font size in pixels" + DEFAULT_FMT,
+        type=int,
         default=40,
     )
     render_optgroup.add_argument(
